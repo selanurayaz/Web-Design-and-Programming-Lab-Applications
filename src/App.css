@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #f5f7fa, #e4ecf5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  background: white;
+  padding: 50px 70px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1e293b;
+  line-height: 1.4;
+}
+
+.divider {
+  width: 60px;
+  height: 4px;
+  background: #2563eb;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #334155;
+}
+
+.student-no {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #64748b;
+}
